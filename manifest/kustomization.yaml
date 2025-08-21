@@ -4,7 +4,7 @@ resources:
 - deployment.yaml
 - service.yaml
 namespace: staging
-images:
-- name: kowlon/go-echo
-  newName: asia-southeast1-docker.pkg.dev/sandbox-wahyu-anggana/kci-dev/go-echo-hamid
-  newTag: stg-v.0.0.1
+# images:
+# - name: kowlon/go-echo
+#   newName: asia-southeast1-docker.pkg.dev/sandbox-wahyu-anggana/kci-dev/go-echo-hamid
+#   newTag: stg-v.0.0.1
