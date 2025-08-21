@@ -14,7 +14,7 @@ func main() {
 		if name == "" {
 			name = "echo"
 		}
-		return c.String(http.StatusOK, "Hello Guys..., "+name+"! on v6")
+		return c.String(http.StatusOK, "TEST Guys..., "+name+"! on v6")
 	})
 
 	e.GET("/v1", func(c echo.Context) error {
@@ -22,7 +22,7 @@ func main() {
 		if age == "" {
 			age = "15"
 		}
-		return c.String(http.StatusOK, "Hello Guys..., your age "+age+"!")
+		return c.String(http.StatusOK, "TEST Guys..., your age "+age+"!")
 	})
 
 	e.Start(":8080")
