@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
-namespace: staging
+namespace: hamid
 # images:
 # - name: kowlon/go-echo
 #   newName: asia-southeast1-docker.pkg.dev/sandbox-wahyu-anggana/kci-dev/go-echo-hamid
