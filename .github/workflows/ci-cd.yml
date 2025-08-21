@@ -89,7 +89,7 @@ jobs:
           
           # Clone the manifest repository
           git clone https://${{ secrets.REPO_TOKEN }}@github.com/hamidattohari/training-app-manifest.git
-          cd kci-manifest
+          cd manifest
           
           # Create directory structure if it doesn't exist
           mkdir -p go-echo
