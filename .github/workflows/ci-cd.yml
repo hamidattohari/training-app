@@ -88,7 +88,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           
           # Clone the manifest repository
-          git clone https://${{ secrets.REPO_TOKEN }}@github.com/k0wl0n/kci-manifest.git
+          git clone https://${{ secrets.REPO_TOKEN }}@github.com/hamidattohari/training-app-manifest.git
           cd kci-manifest
           
           # Create directory structure if it doesn't exist
