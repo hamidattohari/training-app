@@ -78,7 +78,7 @@ jobs:
         run: |
           cd manifest
           SHORT_SHA=$(echo ${{ github.sha }} | cut -c1-7)
-          kustomize edit set image go-echo=${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/${{ env.REGISTRY_REPO }}/${{ env.IMAGE_NAME }}:$SHORT_SHA
+          kustomize edit set image kowlon/go-echo=${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/${{ env.REGISTRY_REPO }}/${{ env.IMAGE_NAME }}:$SHORT_SHA
           cat kustomization.yaml
 
       # Push Kustomize manifests to GitOps repo
